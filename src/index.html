@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="./styles/main.css" />
+		<link rel="stylesheet" href="./styles/header.css" />
+		<link rel="stylesheet" href="./styles/button-footer.css" />
+		<link rel="stylesheet" href="./styles/images.css" />
+		<link rel="stylesheet" href="./styles/footer.css" />
+		<link rel="stylesheet" href="./styles/main-stores-list.css" />
+		<link rel="stylesheet" href="./styles/form.css" />
+		<link rel="stylesheet" href="./styles/stores-list.css" />
+		<link rel="stylesheet" href="./styles/main-store-details.css" />
+		<link rel="stylesheet" href="./styles/contact-details.css" />
+		<link rel="stylesheet" href="./styles/filter.css" />
+		<link rel="stylesheet" href="./styles/table.css" />
+		<title>Stores list</title>
+	</head>
+	<body>
+		<main class="content">
+			<aside class="main-stores-list">
+				<div class="main-stores-list__wrapper">
+					<header class="header">
+						<div class="header__wrapper">
+							<h3 class="header__item">Stores list</h3>
+						</div>
+					</header>
+					<div class="form">
+						<form class="searce-form">
+							<div class="searce-form__wrapper">
+								<input
+									class="searce-form__input"
+									placeholder="Searce"
+									type="text"
+								/>
+								<div class="searce-form__label-wrapper">
+									<label
+										class="searce-form-label label-searce"
+										title="Searce"
+									></label>
+									<label
+										class="searce-form-label label-reload"
+										title="Refresh"
+									></label>
+								</div>
+							</div>
+						</form>
+					</div>
+					<figure class="images">
+						<img
+							src="./images/to-top.svg"
+							alt="to-top"
+							class="images__to-top"
+							title="Collapse header"
+						/>
+						<img
+							src="./images/drawing-pin.svg"
+							alt="drawing-pin"
+							class="images__drawing-pin"
+							title="Pin header on press"
+						/>
+					</figure>
+					<ul class="stores-list">
+						<div class="stores-list__wrapper">
+							<li class="stores-list__item">
+								<div class="store-info">
+									<p class="store-info__title">Funk-Danial</p>
+									<p class="store-info__address">
+										AL, Port, 6357 Macejkovic Crossing
+									</p>
+								</div>
+								<div class="store-square">
+									<span class="store-square__number">5098</span>
+									<span class="store-square__unit">sq.m</span>
+								</div>
+							</li>
+							<li class="stores-list__item">
+								<div class="store-info">
+									<p class="store-info__title">Schiller - West</p>
+									<p class="store-info__address">
+										MA, New, 3002 Daugherty Park
+									</p>
+								</div>
+								<div class="store-square">
+									<span class="store-square__number">8082</span>
+									<span class="store-square__unit">sq.m</span>
+								</div>
+							</li>
+							<li class="stores-list__item">
+								<div class="store-info">
+									<p class="store-info__title">Schumm, O'Keefe and Hudson</p>
+									<p class="store-info__address">
+										GA, New, 30506 Bogisich Club
+									</p>
+								</div>
+								<div class="store-square">
+									<span class="store-square__number">6952</span>
+									<span class="store-square__unit">sq.m</span>
+								</div>
+							</li>
+							<li class="stores-list__item">
+								<div class="store-info">
+									<p class="store-info__title">Gottlieb, Thompson and Batz</p>
+									<p class="store-info__address">WA, Lake, 376 Al Terrace</p>
+								</div>
+								<div class="store-square">
+									<span class="store-square__number">8419</span>
+									<span class="store-square__unit">sq.m</span>
+								</div>
+							</li>
+							<li class="stores-list__item">
+								<div class="store-info">
+									<p class="store-info__title">Stiedemann Inc</p>
+									<p class="store-info__address">
+										IA, New, 0314 Anderson Vailey
+									</p>
+								</div>
+								<div class="store-square">
+									<span class="store-square__number">7519</span>
+									<span class="store-square__unit">sq.m</span>
+								</div>
+							</li>
+							<li class="stores-list__item">
+								<div class="store-info">
+									<p class="store-info__title">Kiphal - Hoppe</p>
+									<p class="store-info__address">
+										TX, South, 4680 Maggio Vista
+									</p>
+								</div>
+								<div class="store-square">
+									<span class="store-square__number">3473</span>
+									<span class="store-square__unit">sq.m</span>
+								</div>
+							</li>
+							<li class="stores-list__item">
+								<div class="store-info">
+									<p class="store-info__title">O'Reilly - Cormier</p>
+									<p class="store-info__address">
+										CT, South, 95111 Martine Falls
+									</p>
+								</div>
+								<div class="store-square">
+									<span class="store-square__number">3789</span>
+									<span class="store-square__unit">sq.m</span>
+								</div>
+							</li>
+							<li class="stores-list__item">
+								<div class="store-info">
+									<p class="store-info__title">Bergstrom - Hyatt</p>
+									<p class="store-info__address">MI, Lake, 223 Joesph Shore</p>
+								</div>
+								<div class="store-square">
+									<span class="store-square__number">2199</span>
+									<span class="store-square__unit">sq.m</span>
+								</div>
+							</li>
+						</div>
+					</ul>
+					<footer class="footer">
+						<div class="footer__wrapper">
+							<button class="button__footer create-btn">&#43; Create</button>
+						</div>
+					</footer>
+				</div>
+			</aside>
+			<section class="main-store-details">
+				<div class="main-store-details__wrapper">
+					<header class="header">
+						<div class="header__wrapper">
+							<h3 class="header__item">Store Details</h3>
+						</div>
+					</header>
+					<div class="contact-details">
+						<div class="contact-details__wrapper">
+							<p class="contact-details__item">
+								<strong>Email:</strong>
+								<span>Lucienne_Emard16@yahoo.com</span>
+							</p>
+							<p class="contact-details__item">
+								<strong>Phone Number:</strong>
+								<span>650.029.9794 x6382</span>
+							</p>
+							<p class="contact-details__item">
+								<strong>Address:</strong>
+								<span>MA, New, 3002 Daugherty Park</span>
+							</p>
+							<p class="contact-details__item">
+								<strong>Established Date:</strong>
+								<span>Dec 20, 2018</span>
+							</p>
+							<p class="contact-details__item">
+								<strong>Floor Area:</strong>
+								<span>8082</span>
+							</p>
+						</div>
+					</div>
+					<div class="filter">
+						<div class="filter__wrapper">
+							<div class="filter__item item-checked">
+								<p class="filter-type_all">100</p>
+								<span class="filter__text filter__text-all"> All </span>
+							</div>
+							<hr noshade color="#e1e8e7" class="hr-checked" />
+							<div class="filter__item">
+								<div class="filter-status">
+									<figure class="filter__figure filter-figure-ok">
+										<img
+											src="./images/filter-ok.svg"
+											alt="filter-ok"
+											class="filter-figure_size"
+										/>
+									</figure>
+									<span class="filter__text">Ok</span>
+								</div>
+								<p class="filter__text filter__text-number">50</p>
+							</div>
+							<div class="filter__item">
+								<div class="filter-status">
+									<figure class="filter__figure filter-figure-storage">
+										<img
+											src="./images/out-of-storage.svg"
+											alt="filter-out-of-storage"
+											class="filter-figure_size"
+										/>
+									</figure>
+									<span class="filter__text">Storage</span>
+								</div>
+								<p class="filter__text filter__text-number">30</p>
+							</div>
+							<div class="filter__item">
+								<div class="filter-status">
+									<figure class="filter__figure filter-figure-out-of-stock">
+										<img
+											src="./images/out-of-stock.svg"
+											alt="filter-out-of-stock"
+											class="filter-figure_size"
+										/>
+									</figure>
+									<span class="filter__text"> Out of stock </span>
+								</div>
+								<p class="filter__text filter__text-number">20</p>
+							</div>
+						</div>
+					</div>
+					<figure class="images">
+						<img
+							src="./images/to-top.svg"
+							alt="to-top"
+							class="images__to-top"
+							title="Collapse header"
+						/>
+						<img
+							src="./images/drawing-pin.svg"
+							alt="drawing-pin"
+							class="images__drawing-pin"
+							title="Pin header on press"
+						/>
+					</figure>
+					<table colls="8" class="table">
+						<thead class="table__head">
+							<tr>
+								<td colspan="8" class="table__title">Products</td>
+							</tr>
+							<tr class="sticky-title">
+								<td class="table__text">Name</td>
+								<td align="right" class="table__text">Price</td>
+								<td class="table__text">Specs</td>
+								<td class="table__text">SupplierInfo</td>
+								<td class="table__text">Country of origin</td>
+								<td class="table__text">Prod. company</td>
+								<td class="table__text">Rating</td>
+								<td></td>
+							</tr>
+						</thead>
+						<tbody class="table__body">
+							<tr class="table__body_row-hover">
+								<td class="table__text first-cell">
+									<strong> Refined Concrete Chicken </strong>
+									<p class="table__text_margin-top-number">1</p>
+								</td>
+								<td align="right" class="table__text">
+									<strong class="table__text_big-number">9255</strong>
+									USD
+								</td>
+								<td class="table__text text-hidden" nowrap>
+									<p
+										title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?"
+										class="text-hidden"
+									>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?
+									</p>
+								</td>
+								<td class="table__text text-hidden" nowrap>
+									<p
+										title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?"
+										class="text-hidden"
+									>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?
+									</p>
+								</td>
+								<td class="table__text">Denmark</td>
+								<td class="table__text text-hidden" nowrap>
+									<p title="Gottlieb, O'Conner and Langw" class="text-hidden">
+										Gottlieb, O'Conner and Langw
+									</p>
+								</td>
+								<td>
+									<figure class="rating">
+										<img
+											src="./images/filled-star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+									</figure>
+								</td>
+								<td class="table__text">
+									<figure class="details">
+										<img
+											src="./images/arrow.svg"
+											alt="details"
+											class="details__item"
+										/>
+									</figure>
+								</td>
+							</tr>
+							<tr class="table__body_row-hover">
+								<td class="table__text first-cell">
+									<strong> Ergonomic Rubber Chicken </strong>
+									<p class="table__text_margin-top-number">2</p>
+								</td>
+								<td align="right" class="table__text">
+									<strong class="table__text_big-number">8560</strong>
+									USD
+								</td>
+								<td class="table__text text-hidden" nowrap>
+									<p
+										title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?"
+										class="text-hidden"
+									>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?
+									</p>
+								</td>
+								<td class="table__text text-hidden" nowrap>
+									<p
+										title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?"
+										class="text-hidden"
+									>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?
+									</p>
+								</td>
+								<td class="table__text">Zambia</td>
+								<td class="table__text text-hidden" nowrap>
+									<p title="Otiz, Mante and Hermiston" class="text-hidden">
+										Otiz, Mante and Hermiston
+									</p>
+								</td>
+								<td>
+									<figure class="rating">
+										<img
+											src="./images/filled-star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/filled-star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+									</figure>
+								</td>
+								<td class="table__text">
+									<figure class="details">
+										<img
+											src="./images/arrow.svg"
+											alt="details"
+											class="details__item"
+										/>
+									</figure>
+								</td>
+							</tr>
+							<tr class="table__body_row-hover">
+								<td class="table__text first-cell">
+									<strong> Ergonomic Rubber Chicken </strong>
+									<p class="table__text_margin-top-number">2</p>
+								</td>
+								<td align="right" class="table__text">
+									<strong class="table__text_big-number">8560</strong>
+									USD
+								</td>
+								<td class="table__text text-hidden" nowrap>
+									<p
+										title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?"
+										class="text-hidden"
+									>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?
+									</p>
+								</td>
+								<td class="table__text text-hidden" nowrap>
+									<p
+										title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?"
+										class="text-hidden"
+									>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?
+									</p>
+								</td>
+								<td class="table__text">Zambia</td>
+								<td class="table__text text-hidden" nowrap>
+									<p title="Otiz, Mante and Hermiston" class="text-hidden">
+										Otiz, Mante and Hermiston
+									</p>
+								</td>
+								<td>
+									<figure class="rating">
+										<img
+											src="./images/filled-star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/filled-star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+									</figure>
+								</td>
+								<td class="table__text">
+									<figure class="details">
+										<img
+											src="./images/arrow.svg"
+											alt="details"
+											class="details__item"
+										/>
+									</figure>
+								</td>
+							</tr>
+							<tr class="table__body_row-hover">
+								<td class="table__text first-cell">
+									<strong> Refined Concrete Chicken </strong>
+									<p class="table__text_margin-top-number">1</p>
+								</td>
+								<td align="right" class="table__text">
+									<strong class="table__text_big-number">9255</strong>
+									USD
+								</td>
+								<td class="table__text text-hidden" nowrap>
+									<p
+										title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?"
+										class="text-hidden"
+									>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?
+									</p>
+								</td>
+								<td class="table__text text-hidden" nowrap>
+									<p
+										title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?"
+										class="text-hidden"
+									>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?
+									</p>
+								</td>
+								<td class="table__text">Denmark</td>
+								<td class="table__text text-hidden" nowrap>
+									<p title="Gottlieb, O'Conner and Langw" class="text-hidden">
+										Gottlieb, O'Conner and Langw
+									</p>
+								</td>
+								<td>
+									<figure class="rating">
+										<img
+											src="./images/filled-star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+									</figure>
+								</td>
+								<td class="table__text">
+									<figure class="details">
+										<img
+											src="./images/arrow.svg"
+											alt="details"
+											class="details__item"
+										/>
+									</figure>
+								</td>
+							</tr>
+							<tr class="table__body_row-hover">
+								<td class="table__text first-cell">
+									<strong> Refined Concrete Chicken </strong>
+									<p class="table__text_margin-top-number">1</p>
+								</td>
+								<td align="right" class="table__text">
+									<strong class="table__text_big-number">9255</strong>
+									USD
+								</td>
+								<td class="table__text text-hidden" nowrap>
+									<p
+										title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?"
+										class="text-hidden"
+									>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?
+									</p>
+								</td>
+								<td class="table__text text-hidden" nowrap>
+									<p
+										title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?"
+										class="text-hidden"
+									>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?
+									</p>
+								</td>
+								<td class="table__text">Denmark</td>
+								<td class="table__text text-hidden" nowrap>
+									<p title="Gottlieb, O'Conner and Langw" class="text-hidden">
+										Gottlieb, O'Conner and Langw
+									</p>
+								</td>
+								<td>
+									<figure class="rating">
+										<img
+											src="./images/filled-star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+									</figure>
+								</td>
+								<td class="table__text">
+									<figure class="details">
+										<img
+											src="./images/arrow.svg"
+											alt="details"
+											class="details__item"
+										/>
+									</figure>
+								</td>
+							</tr>
+							<tr class="table__body_row-hover">
+								<td class="table__text first-cell">
+									<strong> Refined Concrete Chicken </strong>
+									<p class="table__text_margin-top-number">1</p>
+								</td>
+								<td align="right" class="table__text">
+									<strong class="table__text_big-number">9255</strong>
+									USD
+								</td>
+								<td class="table__text text-hidden" nowrap>
+									<p
+										title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?"
+										class="text-hidden"
+									>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?
+									</p>
+								</td>
+								<td class="table__text text-hidden" nowrap>
+									<p
+										title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?"
+										class="text-hidden"
+									>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?
+									</p>
+								</td>
+								<td class="table__text">Denmark</td>
+								<td class="table__text text-hidden" nowrap>
+									<p title="Gottlieb, O'Conner and Langw" class="text-hidden">
+										Gottlieb, O'Conner and Langw
+									</p>
+								</td>
+								<td>
+									<figure class="rating">
+										<img
+											src="./images/filled-star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+									</figure>
+								</td>
+								<td class="table__text">
+									<figure class="details">
+										<img
+											src="./images/arrow.svg"
+											alt="details"
+											class="details__item"
+										/>
+									</figure>
+								</td>
+							</tr>
+							<tr class="table__body_row-hover">
+								<td class="table__text first-cell">
+									<strong> Refined Concrete Chicken </strong>
+									<p class="table__text_margin-top-number">1</p>
+								</td>
+								<td align="right" class="table__text">
+									<strong class="table__text_big-number">9255</strong>
+									USD
+								</td>
+								<td class="table__text text-hidden" nowrap>
+									<p
+										title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?"
+										class="text-hidden"
+									>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?
+									</p>
+								</td>
+								<td class="table__text text-hidden" nowrap>
+									<p
+										title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?"
+										class="text-hidden"
+									>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?
+									</p>
+								</td>
+								<td class="table__text">Denmark</td>
+								<td class="table__text text-hidden" nowrap>
+									<p title="Gottlieb, O'Conner and Langw" class="text-hidden">
+										Gottlieb, O'Conner and Langw
+									</p>
+								</td>
+								<td>
+									<figure class="rating">
+										<img
+											src="./images/filled-star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+									</figure>
+								</td>
+								<td class="table__text">
+									<figure class="details">
+										<img
+											src="./images/arrow.svg"
+											alt="details"
+											class="details__item"
+										/>
+									</figure>
+								</td>
+							</tr>
+							<tr class="table__body_row-hover">
+								<td class="table__text first-cell">
+									<strong> Ergonomic Rubber Chicken </strong>
+									<p class="table__text_margin-top-number">2</p>
+								</td>
+								<td align="right" class="table__text">
+									<strong class="table__text_big-number">8560</strong>
+									USD
+								</td>
+								<td class="table__text text-hidden" nowrap>
+									<p
+										title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?"
+										class="text-hidden"
+									>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?
+									</p>
+								</td>
+								<td class="table__text text-hidden" nowrap>
+									<p
+										title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?"
+										class="text-hidden"
+									>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?
+									</p>
+								</td>
+								<td class="table__text">Zambia</td>
+								<td class="table__text text-hidden" nowrap>
+									<p title="Otiz, Mante and Hermiston" class="text-hidden">
+										Otiz, Mante and Hermiston
+									</p>
+								</td>
+								<td>
+									<figure class="rating">
+										<img
+											src="./images/filled-star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/filled-star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+									</figure>
+								</td>
+								<td class="table__text">
+									<figure class="details">
+										<img
+											src="./images/arrow.svg"
+											alt="details"
+											class="details__item"
+										/>
+									</figure>
+								</td>
+							</tr>
+							<tr class="table__body_row-hover">
+								<td class="table__text first-cell">
+									<strong> Refined Concrete Chicken </strong>
+									<p class="table__text_margin-top-number">1</p>
+								</td>
+								<td align="right" class="table__text">
+									<strong class="table__text_big-number">9255</strong>
+									USD
+								</td>
+								<td class="table__text text-hidden" nowrap>
+									<p
+										title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?"
+										class="text-hidden"
+									>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?
+									</p>
+								</td>
+								<td class="table__text text-hidden" nowrap>
+									<p
+										title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?"
+										class="text-hidden"
+									>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?
+									</p>
+								</td>
+								<td class="table__text">Denmark</td>
+								<td class="table__text text-hidden" nowrap>
+									<p title="Gottlieb, O'Conner and Langw" class="text-hidden">
+										Gottlieb, O'Conner and Langw
+									</p>
+								</td>
+								<td>
+									<figure class="rating">
+										<img
+											src="./images/filled-star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+									</figure>
+								</td>
+								<td class="table__text">
+									<figure class="details">
+										<img
+											src="./images/arrow.svg"
+											alt="details"
+											class="details__item"
+										/>
+									</figure>
+								</td>
+							</tr>
+							<tr class="table__body_row-hover">
+								<td class="table__text first-cell">
+									<strong> Ergonomic Rubber Chicken </strong>
+									<p class="table__text_margin-top-number">2</p>
+								</td>
+								<td align="right" class="table__text">
+									<strong class="table__text_big-number">8560</strong>
+									USD
+								</td>
+								<td class="table__text text-hidden" nowrap>
+									<p
+										title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?"
+										class="text-hidden"
+									>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?
+									</p>
+								</td>
+								<td class="table__text text-hidden" nowrap>
+									<p
+										title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?"
+										class="text-hidden"
+									>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Quaerat ducimus voluptatem laborum! Ex, laudantium veniam?
+									</p>
+								</td>
+								<td class="table__text">Zambia</td>
+								<td class="table__text text-hidden" nowrap>
+									<p title="Otiz, Mante and Hermiston" class="text-hidden">
+										Otiz, Mante and Hermiston
+									</p>
+								</td>
+								<td>
+									<figure class="rating">
+										<img
+											src="./images/filled-star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/filled-star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+										<img
+											src="./images/star.svg"
+											alt="rating"
+											class="rating__star"
+										/>
+									</figure>
+								</td>
+								<td class="table__text">
+									<figure class="details">
+										<img
+											src="./images/arrow.svg"
+											alt="details"
+											class="details__item"
+										/>
+									</figure>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<footer class="footer">
+						<div class="footer__wrapper">
+							<button class="button__footer create-btn">+ Create</button>
+							<button class="button__footer delete-btn">
+								<img src="./images/garbage.svg" alt="garbage" />
+								Delete
+							</button>
+						</div>
+					</footer>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>

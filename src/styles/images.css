@@ -1,0 +1,29 @@
+.images {
+    margin: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.images__to-top {
+    position: absolute;
+    bottom: -7px;
+    width: 10px;
+    height: 10px;
+    padding: 4px;
+    border-radius: 2px;
+    background-color: #d2e1f0;
+    cursor: pointer;
+}
+
+.images__drawing-pin {
+    position: absolute;
+    bottom: -7px;
+    width: 10px;
+    height: 10px;
+    margin: 0 0 0 45px;
+    padding: 4px;
+    border-radius: 2px;
+    background-color: #d2e1f0;
+    cursor: pointer;
+}

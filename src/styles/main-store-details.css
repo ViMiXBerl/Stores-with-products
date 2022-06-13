@@ -5,8 +5,9 @@
 .main-store-details__wrapper {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    overflow-y: scroll;
-    overflow-x: hidden;
     height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    overflow-y: auto;
+    overflow-x: hidden;
 }

@@ -1,23 +1,23 @@
-.filter {
+.products-filters {
     display: flex;
     background-color: #edf3f7;
     border-bottom: 3px solid #d6e0eb;
 }
 
-.filter__wrapper {
+.products-filters__wrapper {
     display: flex;
     align-items: center;
     width: 90%;
     margin: 0 auto;
 }
 
-.filter__item {
+.products-filters__item {
     display: flex;
     align-items: center;
     margin: 10px 20px 10px 0;
 }
 
-.filter__item:hover {
+.products-filters__item:hover {
     cursor: pointer;
 }
 
@@ -30,48 +30,48 @@
     height: 50px;
 }
 
-.filter-type_all {
+.products-filters-type_all {
     font-size: 22px;
 }
 
-.filter__text-all {
+.products-filters__text-all {
     margin: 0 0 0 4px;
 }
 
-.filter-status {
+.products-filters__status {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.filter__figure {
+.products-filters__figure {
     border-radius: 50%;
     padding: 10px;
     height: 20px;
     margin: 10px 0 5px 0;
 }
 
-.filter-figure-ok {
+.products-filters_figure-ok {
     border: 2px solid #3b793b;
 }
 
-.filter-figure-storage {
+.products-filters_figure-storage {
     border: 2px solid #d49641;
 }
 
-.filter-figure-out-of-stock {
+.products-filters_figure-out-of-stock {
     border: 2px solid #9b2027;
 }
 
-.filter-figure_size {
+.products-filters_figure-size {
     width: 20px;
     height: 20px;
 }
 
-.filter__text {
+.products-filters__text {
     font-size: 12px;
 }
 
-.filter__text-number {
+.products-filters__text-number {
     margin: 0 0 45px 4px;
 }

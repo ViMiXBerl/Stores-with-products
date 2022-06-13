@@ -1,4 +1,4 @@
-.header {
+.stores-header {
     position: sticky;
     top: 0;
     z-index: 1;
@@ -7,13 +7,13 @@
     background-color: #edf3f7;
 }
 
-.header__wrapper {
+.stores-header__wrapper {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     width: 90%;
 }
 
-.header__item {
+.stores-header__item {
     margin: 10px 0 20px;
 }

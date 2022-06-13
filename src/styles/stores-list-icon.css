@@ -1,11 +1,11 @@
-.images {
+.main-stores-list__icon-wrapper {
     margin: 0;
     position: relative;
     display: flex;
     justify-content: center;
 }
 
-.images__to-top {
+.main-stores-list__icon_top {
     position: absolute;
     bottom: -7px;
     width: 10px;
@@ -16,7 +16,11 @@
     cursor: pointer;
 }
 
-.images__drawing-pin {
+.main-stores-list__icon_top:hover {
+    background-color: #a1c9f0;
+}
+
+.main-stores-list__icon_drawing-pin {
     position: absolute;
     bottom: -7px;
     width: 10px;
@@ -26,4 +30,8 @@
     border-radius: 2px;
     background-color: #d2e1f0;
     cursor: pointer;
+}
+
+.main-stores-list__icon_drawing-pin:hover {
+    background-color: #a1c9f0;
 }

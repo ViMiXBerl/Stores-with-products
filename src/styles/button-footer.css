@@ -11,12 +11,12 @@
     background-color: #c0daea2d;
 }
 
-.create-btn {
+.create-button {
     color: #c0daea;
     border: 1px solid #c0daea;
 }
 
-.delete-btn {
+.delete-button {
     display: flex;
     color: #d17478;
     border: 1px solid #d17478;

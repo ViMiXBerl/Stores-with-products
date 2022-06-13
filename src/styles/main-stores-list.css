@@ -7,6 +7,11 @@
     flex-direction: column;
     height: 100vh;
     margin: 0 auto;
-    overflow-y: scroll;
     overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.stores-list-not-foun {
+    display: flex;
+    justify-content: center;
 }
